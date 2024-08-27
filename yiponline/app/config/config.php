@@ -20,7 +20,7 @@
     define('URLROOT', 'http://localhost/yipOnlinesmarty/yiponline');
 
     ////// SITE Name///////
-    define('SITENAME', 'ExamTimes');
+    define('SITENAME', 'Yiponline');
 
 
 

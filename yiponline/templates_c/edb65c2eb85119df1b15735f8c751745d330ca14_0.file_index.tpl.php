@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.0, created on 2024-08-28 00:19:03
+/* Smarty version 5.4.0, created on 2024-08-28 00:59:28
   from 'file:index.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.0',
-  'unifunc' => 'content_66ce50d71073f8_97794268',
+  'unifunc' => 'content_66ce5a5064ac21_88557597',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'edb65c2eb85119df1b15735f8c751745d330ca14' => 
     array (
       0 => 'index.tpl',
-      1 => 1724797138,
+      1 => 1724799565,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_66ce50d71073f8_97794268 (\Smarty\Template $_smarty_tpl) {
+function content_66ce5a5064ac21_88557597 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'C:\\xampp\\htdocs\\yipOnlineSmarty\\yiponline\\templates';
 ?><!DOCTYPE html>
 <html lang="en">
@@ -37,6 +37,8 @@ $_smarty_current_dir = 'C:\\xampp\\htdocs\\yipOnlineSmarty\\yiponline\\templates
     <div class="container">
         <div class="row">
         <div class="col-md-4 col-12"></div>
+
+       
 
         <div class="col-md-4 col-12 mt-4">
             <h3 class="text-center">Register</h3>
@@ -56,8 +58,7 @@ $_smarty_current_dir = 'C:\\xampp\\htdocs\\yipOnlineSmarty\\yiponline\\templates
                 <?php }?>
             <?php }?>
 
-            <form method="POST" action="<?php echo $_smarty_tpl->getValue('URLROOT');?>
-/index.php">
+            <form method="POST" action="index.php">
                 <div class="mb-3">
                     <label class="form-label">Username</label>
                     <input type="text" value="<?php echo $_smarty_tpl->getValue('data')['username'];?>

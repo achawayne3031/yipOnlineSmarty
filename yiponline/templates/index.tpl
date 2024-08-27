@@ -14,6 +14,8 @@
         <div class="row">
         <div class="col-md-4 col-12"></div>
 
+       
+
         <div class="col-md-4 col-12 mt-4">
             <h3 class="text-center">Register</h3>
             {if $message != ""}
@@ -30,7 +32,7 @@
                 {/if}
             {/if}
 
-            <form method="POST" action="{$URLROOT}/index.php">
+            <form method="POST" action="index.php">
                 <div class="mb-3">
                     <label class="form-label">Username</label>
                     <input type="text" value="{$data['username']}" name="username" class="form-control">
